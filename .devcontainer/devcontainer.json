@@ -1,0 +1,9 @@
+{
+  "name": "My Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "./.devcontainer/setup-aws.sh",
+  "postStartCommand": "echo 'Container started!'",
+  "remoteEnv": {
+    "AWS_CLI_AUTO_PROMPT": "on"
+  }
+}
